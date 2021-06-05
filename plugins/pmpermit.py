@@ -270,7 +270,6 @@ if sett == "True" or sett != "False":
                             )
                         except Exception as e:
                             print(e)
-                            pass
                 elif event.text == prevmsg:
                     async for message in ultroid.iter_messages(
                         user.id,
@@ -304,7 +303,6 @@ if sett == "True" or sett != "False":
                             )
                         except Exception as e:
                             print(e)
-                            pass
                 LASTMSG.update({user.id: event.text})
             else:
                 async for message in ultroid.iter_messages(user.id, search=UND):
@@ -334,7 +332,6 @@ if sett == "True" or sett != "False":
                         )
                     except Exception as e:
                         print(e)
-                        pass
                 LASTMSG.update({user.id: event.text})
             if user.id not in COUNT_PM:
                 COUNT_PM.update({user.id: 1})
@@ -696,7 +693,7 @@ async def in_pm_ans(event):
     t = txt.split("\n")
     try:
         wrns = t[len(t) - 1].split()[2]
-    except:
+    except BaseException:
         wrns = f'?/{Redis("PMWARNS")}'
     a = await event.builder.article(
         title="Inline PMPermit.",
