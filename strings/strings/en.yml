@@ -61,16 +61,10 @@ afk_7: "Currently AFK with reason {}"
 afk_8: "Currently AFK."
 
 # bot
-alive_1: "**The Ultroid Userbot...**\n\n
+alive_1: "**Shika's Darling...**\n\n
 **{}**\n\n
 ┏━━━━━━━━━━━━━━━━━━━━━\n
 ┣ **Owner** - `{}`\n
-┣ **Version** - `{}`\n
-┣ **Py-Ultroid** - `{}`\n
-┣ **UpTime** - `{}`\n
-┣ **Python** - `{}`\n
-┣ **Telethon** - `{}`\n
-┣ **Branch** - `{}`\n
 ┗━━━━━━━━━━━━━━━━━━━━━"
 log: "**Heroku** Ultroid Logs.\nPasted [here]({}) too!"
 ping: "**Pong !!** `{}ms`\n**Uptime** - `{}`"
