@@ -73,11 +73,7 @@ async def lol(ult):
     als = (get_string("alive_1")).format(
         header,
         OWNER_NAME,
-        ultroid_version,
-        UltVer,
         uptime,
-        pyver(),
-        __version__,
         kk,
     )
     if pic is None:
