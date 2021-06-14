@@ -9,8 +9,8 @@ authors:
   - avish-kumar1
 
 # commons
-com_1: "`Processing...`"
-com_2: "`Searching...`"
+com_1: "`Processing for my Darling...`"
+com_2: "`Searching for my Darling...`"
 # help
 help_1: "`{}` is not a valid plugin!"
 help_2: "The bot did not respond to the inline query.\nConsider using `{}restart`"
@@ -40,11 +40,11 @@ tagnot_1: "{} tagged you in {}\n\n```{}```\n\n[📨 Message 📨]({})"
 tagnot_2: "{} tagged you in {}\n\n [📨 Message 📨]({})"
 
 # whisper
-wspr_1: "@{} secret msg for you.\nDelete your msg after reading.\nOr the next msg will not be updated."
+wspr_1: "@{} secret msg for you by my Darlings.\nDelete your msg after reading.\nOr the next msg will not be updated."
 wspr_2: "Message deleted"
 
 # afk
-afk_1: "`No Longer Afk\n\n
+afk_1: "`My Darling No Longer Afk\n\n
 Was away for ~ {}`"
 afk_2: "#AFK\n
 Set AFK mode to False.\n
@@ -82,7 +82,7 @@ usage: "**⚙️ Dyno Usage ⚙️**:\n\n
 **CPU**: `{}%`\n
 **RAM**: `{}%`\n
 **DISK**: `{}%`"
-shutdown: "GoodBye {}.\n`Shutting down...`"
+shutdown: "GoodBye Darling  {}.\n`Shutting down...`"
 
 # broadcast
 bd_1: "`Adding to db...`"
