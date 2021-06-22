@@ -68,14 +68,8 @@ def grt(seconds: int) -> str:
 
 
 KANGING_STR = [
-    "Using Witchery to kang this sticker...",
-    "Plagiarising hehe...",
-    "Inviting this sticker over to my pack...",
-    "Kanging this sticker...",
-    "Hey that's a nice sticker!\nMind if I kang?!..",
-    "Hehe me stel ur stiker...",
-    "Ay look over there (☉｡☉)!→\nWhile I kang this...",
-    "Roses are red violets are blue, kanging this sticker so my pack looks cool",
-    "Imprisoning this sticker...",
-    "Mr.Steal-Your-Sticker is stealing this sticker... ",
+    "Cloning For Darling.....",
+    "Darling wait whats the hurry in kanging, hehe...",
+    "Adding Honey to your stickers and making it my darlings..",
+    "That sticker is not yours its now my Darlings",
 ]
