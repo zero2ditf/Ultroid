@@ -12,13 +12,13 @@ authors:
 com_1: "`Processing for my Darling...`"
 com_2: "`Searching for my Darling...`"
 # help
-help_1: "`{}` is not a valid plugin!"
-help_2: "The bot did not respond to the inline query.\nConsider using `{}restart`"
+help_1: "`{}` is not a valid plugin Darling!"
+help_2: "Zero two is angry with darling so will not respond to the inline query.\nConsider using `{}restart`"
 help_3: "`Please turn on inline mode for your bot from` @Botfather."
 
 # autopic
-autopic_1: "Heya Give me some Text .."
-autopic_2: "No Results found for `{}`"
+autopic_1: "Heya Darling atleast Give me some Text .."
+autopic_2: "No Results found Darling for `{}`"
 autopic_3: "Got a Collection `{}` related to your search !\nStarting Autopic !"
 
 # inline
@@ -40,7 +40,7 @@ tagnot_1: "{} tagged you in {}\n\n```{}```\n\n[📨 Message 📨]({})"
 tagnot_2: "{} tagged you in {}\n\n [📨 Message 📨]({})"
 
 # whisper
-wspr_1: "@{} secret msg for you by my Darlings.\nDelete your msg after reading.\nOr the next msg will not be updated."
+wspr_1: "@{} secret msg for you by my Darling.\nDelete your msg after reading.\nOr the next msg will not be updated."
 wspr_2: "Message deleted"
 
 # afk
