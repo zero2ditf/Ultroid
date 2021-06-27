@@ -1,5 +1,5 @@
 # Ultroid - UserBot
-# Copyright (C) 2020 TeamUltroid
+# Copyright (C) 2021 TeamUltroid
 #
 # This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
 # PLease read the GNU Affero General Public License in
@@ -23,7 +23,9 @@ from telethon.tl.types import DocumentAttributeAudio
 from . import *
 
 
-@ultroid_cmd(pattern="saavn ?(.*)")
+@ultroid_cmd(
+    pattern="saavn ?(.*)",
+)
 async def siesace(e):
     song = e.pattern_match.group(1)
     if not song:
@@ -36,11 +38,16 @@ async def siesace(e):
         k = (r.get(url)).json()[0]
     except IndexError:
         return await eod(lol, "`Song Not Found.. `")
-    title = k["song"]
-    urrl = k["media_url"]
-    img = k["image"]
-    duration = k["duration"]
-    singers = k["singers"]
+    except Exception as ex:
+        return await eod(lol, f"`{str(ex)}`")
+    try:
+        title = k["song"]
+        urrl = k["media_url"]
+        img = k["image"]
+        duration = k["duration"]
+        singers = k["primary_artists"]
+    except Exception as ex:
+        return await eod(lol, f"`{str(ex)}`")
     urlretrieve(urrl, title + ".mp3")
     urlretrieve(img, title + ".jpg")
     okk = await uploader(
@@ -63,6 +70,3 @@ async def siesace(e):
     await lol.delete()
     os.remove(title + ".mp3")
     os.remove(title + ".jpg")
-
-
-HELP.update({f"{__name__.split('.')[1]}": f"{__doc__.format(i=HNDLR)}"})
