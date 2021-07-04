@@ -56,6 +56,7 @@ async def lol(ult):
     als = (get_string("alive_1")).format(
         header,
         OWNER_NAME,
+        uptime,
         kk,
     )
     if pic is None:
