@@ -84,7 +84,7 @@ async def _(event):
     if not event.out and not is_sudo(event.sender_id):
         return
     start = dt.now()
-    x = await eor(event, "`Pong !`")
+    x = await eor(event, "`Darling!`")
     end = dt.now()
     ms = (end - start).microseconds / 1000
     uptime = grt(time.time() - start_time)
