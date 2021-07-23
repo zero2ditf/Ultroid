@@ -21,7 +21,7 @@ from . import *
 # ================================================#
 notmine = f"This bot is for {OWNER_NAME}"
 
-TLINK = "https://telegra.ph/file/d9c9bc13647fa1d96e764.jpg"
+TLINK = "https://telegra.ph/file/88d6fe19cd3377994383c.jpg"
 helps = get_string("inline_1")
 
 add_ons = udB.get("ADDONS")
@@ -59,10 +59,9 @@ _main_help_menu = [
 
 SUP_BUTTONS = [
     [
-        Button.url("Repo", url="https://github.com/TeamUltroid/Ultroid"),
-        Button.url("Addons", url="https://github.com/TeamUltroid/UltroidAddons"),
+        Button.url("Repo", url="https://t.me/joinchat/MQa8a-v79gEyZTU9"),
+        Button.url("Join", url="t.me/ExorcistChats"),
     ],
-    [Button.url("Support", url="t.me/UltroidSupport")],
 ]
 
 # --------------------BUTTONS--------------------#
