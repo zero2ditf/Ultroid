@@ -88,7 +88,7 @@ async def inline_alive(o):
                     media=True,
                     buttons=SUP_BUTTONS,
                 ),
-                title="Ultroid Userbot",
+                title="DARLING ZERO TWO",
                 description="Userbot | Telethon",
                 url=TLINK,
                 thumb=WEB0,
@@ -454,7 +454,7 @@ async def on_plug_in_callback_query_handler(event):
         reply_pop_up_alert = f"{plugin_name} has no detailed help..."
     else:
         reply_pop_up_alert = help_string
-    reply_pop_up_alert += "\n© @TeamUltroid"
+    reply_pop_up_alert += "\n© @ExorcistChats"
     buttons = [
         [
             Button.inline(
