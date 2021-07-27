@@ -66,8 +66,8 @@ alive_1: "** {} Darling...**\n\n
 ┣ **Owner** - `{}`\n
 ┣ **UpTime** - `{}`\n
 ┗━━━━━━━━━━━━━━━━━━━━━"
-log: "**Heroku** Ultroid Logs.\nPasted [here]({}) too!"
-ping: "**Pong !!** `{}ms`\n**Uptime** - `{}`"
+log: "**Heroku** Darling Logs.\nPasted [here]({}) too!"
+ping: "**Darling !!** `{}ms`\n**I m awake from:-** - `{}`"
 usage: "**⚙️ Dyno Usage ⚙️**:\n\n
 -> **Dyno usage for** `{}`:\n
   •  **{}h**  **{}m** |** `[{}%]`\n
