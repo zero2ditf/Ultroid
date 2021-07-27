@@ -48,11 +48,7 @@ _main_help_menu = [
         Button.inline("• Add. Cmds", data="frrr"),
     ],
     [
-        Button.inline("Tools", data="ownr"),
         Button.inline("Inline", data="inlone"),
-    ],
-    [
-        Button.url("Settings", url=f"https://t.me/{asst.me.username}?start=set"),
     ],
     [Button.inline("•close•", data="close")],
 ]
@@ -153,38 +149,6 @@ async def _(event):
         ],
     )
     await event.answer([result])
-
-
-@callback("ownr")
-@owner
-async def setting(event):
-    z = []
-    for x in LIST.values():
-        for y in x:
-            z.append(y)
-    cmd = len(z)
-    await event.edit(
-        get_string("inline_4").format(
-            OWNER_NAME,
-            len(PLUGINS),
-            len(ADDONS),
-            cmd,
-        ),
-        file=_file_to_replace,
-        link_preview=False,
-        buttons=[
-            [
-                Button.inline("•Pɪɴɢ•", data="pkng"),
-                Button.inline("•Uᴘᴛɪᴍᴇ•", data="upp"),
-            ],
-            [
-                Button.inline("•Rᴇsᴛᴀʀᴛ•", data="rstrt"),
-                Button.inline("•Uᴘᴅᴀᴛᴇ•", data="doupdate"),
-            ],
-            [Button.inline("« Bᴀᴄᴋ", data="open")],
-        ],
-    )
-
 
 @callback("doupdate")
 @owner
