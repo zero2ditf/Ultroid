@@ -44,17 +44,17 @@ else:
 
 _main_help_menu = [
     [
-        Button.inline("• Pʟᴜɢɪɴs", data="hrrrr"),
-        Button.inline("• Aᴅᴅᴏɴs", data="frrr"),
+        Button.inline("• Cmds", data="hrrrr"),
+        Button.inline("• Add. Cmds", data="frrr"),
     ],
     [
-        Button.inline("Oᴡɴᴇʀ•ᴛᴏᴏʟꜱ", data="ownr"),
-        Button.inline("Iɴʟɪɴᴇ•Pʟᴜɢɪɴs", data="inlone"),
+        Button.inline("Tools", data="ownr"),
+        Button.inline("Inline", data="inlone"),
     ],
     [
-        Button.url("⚙️Sᴇᴛᴛɪɴɢs⚙️", url=f"https://t.me/{asst.me.username}?start=set"),
+        Button.url("Settings", url=f"https://t.me/{asst.me.username}?start=set"),
     ],
-    [Button.inline("••Cʟᴏꜱᴇ••", data="close")],
+    [Button.inline("•close•", data="close")],
 ]
 
 SUP_BUTTONS = [
@@ -72,7 +72,7 @@ SUP_BUTTONS = [
 async def inline_alive(o):
     if len(o.text) == 0:
         b = o.builder
-        MSG = "• **Ultroid Userbot •**"
+        MSG = "•DARLING ZERO TWO•"
         uptime = grt(time.time() - start_time)
         MSG += f"\n\n• **Uptime** - `{uptime}`\n"
         MSG += f"• **OWNER** - `{OWNER_NAME}`"
@@ -95,7 +95,7 @@ async def inline_alive(o):
                 content=InputWebDocument(TLINK, 0, "image/jpg", []),
             )
         ]
-        await o.answer(RES, switch_pm=f"👥 ULTROID PORTAL", switch_pm_param="start")
+        await o.answer(RES, switch_pm=f"PORTAL", switch_pm_param="start")
 
 
 @in_pattern("ultd")
