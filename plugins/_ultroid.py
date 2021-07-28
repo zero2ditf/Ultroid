@@ -13,8 +13,8 @@ from . import *
 
 REPOMSG = (
     "• **SHIKA'S Darling** •\n\n",
-    "• Repo - [Click Here](https://github.com/TeamUltroid/Ultroid)\n",
-    "• Addons - [Click Here](https://github.com/TeamUltroid/UltroidAddons)\n",
+    "• Repo - [Click Here](https://t.me/joinchat/MQa8a-v79gEyZTU9)\n",
+    "• Addons - [Click Here](http://t.me/ExorcistChats)\n",
     "• Support - @Exorcistchats",
 )
 
