@@ -10,7 +10,7 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 RUN git clone https://github.com/zero2ditf/Ultroid.git
 
-WORKDIR /root/TeamUltroid/
+WORKDIR /root/zero2ditf/
 
 RUN pip3 install --no-cache-dir -r requirements.txt
 
