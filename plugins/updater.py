@@ -43,7 +43,7 @@ async def _(e):
         )
     else:
         await xx.edit(
-            f'<code>Your BOT is </code><strong>up-to-date</strong><code> with </code><strong><a href="https://github.com/zero2ditf/Ultroid/tree/{branch}">[{branch}]</a></strong>',
+            f'<code>Your BOT is </code><strong>up-to-date</strong><code> with </code><strong><a href="https://github.com/zero2ditf/Ultroid/tree/main">[maintain]</a></strong>',
             parse_mode="html",
             link_preview=False,
         )
