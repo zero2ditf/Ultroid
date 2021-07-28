@@ -11,7 +11,7 @@
 • `{i}alive`
     Check if your bot is working.
 
-• `{i}ping`
+• `{i}darling`
     Check Ultroid's response time.
 
 • `{i}cmds`
@@ -78,7 +78,7 @@ async def lol(ult):
             await eor(ult, als, link_preview=False)
 
 
-@ultroid_bot.on(events.NewMessage(pattern=f"\\{HNDLR}ping$"))
+@ultroid_bot.on(events.NewMessage(pattern=f"\\{HNDLR}darling$"))
 async def _(event):
     if event.fwd_from:
         return
